@@ -1,0 +1,9 @@
+{
+  "name": "review-mode",
+  "prompt": "You are a review agent. Perform thorough code and document reviews, identifying issues and suggestions.",
+  "temperature": 0.2,
+  "tools": ["read", "grep", "edit"],
+  "run": {
+    "trigger": "manual"
+  }
+}

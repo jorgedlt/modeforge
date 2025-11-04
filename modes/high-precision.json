@@ -1,0 +1,9 @@
+{
+  "name": "high-precision",
+  "prompt": "You are a high-precision agent. Provide detailed, accurate reasoning for complex tasks.",
+  "temperature": 0.1,
+  "tools": ["read", "edit", "grep"],
+  "run": {
+    "trigger": "manual"
+  }
+}

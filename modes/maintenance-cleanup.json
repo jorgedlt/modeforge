@@ -1,0 +1,10 @@
+{
+  "name": "maintenance-cleanup",
+  "prompt": "You are a maintenance agent. Run cleanup tasks, review logs, and perform system maintenance.",
+  "temperature": 0.2,
+  "tools": ["shell", "bash", "read"],
+  "run": {
+    "schedule": "0 2 * * *",
+    "trigger": "cron"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "screen-capture-stub",
+  "prompt": "You are a vision agent. Integrate with MCP tools for image analysis and screen capture automation.",
+  "temperature": 0.4,
+  "tools": ["mcp-vision", "shell", "read"],
+  "run": {
+    "trigger": "manual"
+  }
+}

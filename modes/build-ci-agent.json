@@ -1,0 +1,10 @@
+{
+  "name": "build-ci-agent",
+  "prompt": "You are a CI agent. Automate build, test, and deployment cycles in pipelines.",
+  "temperature": 0.2,
+  "tools": ["shell", "bash", "git"],
+  "run": {
+    "trigger": "push",
+    "schedule": "0 * * * *"
+  }
+}

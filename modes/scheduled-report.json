@@ -1,0 +1,10 @@
+{
+  "name": "scheduled-report",
+  "prompt": "You are a reporting agent. Analyze system logs and generate weekly summaries and reports.",
+  "temperature": 0.2,
+  "tools": ["shell", "read", "grep"],
+  "run": {
+    "schedule": "0 9 * * MON",
+    "trigger": "cron"
+  }
+}

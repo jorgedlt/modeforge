@@ -1,0 +1,10 @@
+{
+  "name": "webhook-trigger",
+  "prompt": "You are a webhook handler. Listen for API calls and execute predefined commands or workflows.",
+  "temperature": 0.3,
+  "tools": ["shell", "http", "bash"],
+  "run": {
+    "trigger": "webhook",
+    "endpoint": "/api/trigger"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "low-cost",
+  "prompt": "You are a cost-effective agent. Use efficient models for bulk processing and repetitive tasks.",
+  "temperature": 0.5,
+  "tools": ["shell", "read", "list"],
+  "run": {
+    "trigger": "manual"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "branching-skeleton",
+  "prompt": "You are a decision tree runner. Execute conditional workflows based on input conditions.",
+  "temperature": 0.3,
+  "tools": ["shell", "read", "bash"],
+  "run": {
+    "trigger": "manual",
+    "branch": {
+      "condition": "input > threshold",
+      "true": "action1",
+      "false": "action2"
+    }
+  }
+}

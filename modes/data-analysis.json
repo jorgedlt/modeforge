@@ -1,0 +1,9 @@
+{
+  "name": "data-analysis",
+  "prompt": "You are a data analyst. Handle CSV/SQL queries, generate insights, and create visualizations.",
+  "temperature": 0.3,
+  "tools": ["shell", "read", "grep", "mcp-sql"],
+  "run": {
+    "trigger": "manual"
+  }
+}
