@@ -1,6 +1,6 @@
 # ModeForge
 
-[![Build Status](https://github.com/yourusername/modeforge/actions/workflows/validate.yml/badge.svg)](https://github.com/yourusername/modeforge/actions/workflows/validate.yml)
+[![Build Status](https://github.com/jorgedlt/modeforge/actions/workflows/validate.yml/badge.svg)](https://github.com/jorgedlt/modeforge/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A public collection of pre-built OpenCode mode templates (starter packs) that enable users to quickly deploy time-based, triggered, and workflow-oriented automation using [OpenCode](https://github.com/sst/opencode) and MCP tools.
@@ -19,10 +19,14 @@ OpenCode modes are specialized configurations that define how the AI agent behav
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/modeforge.git
+git clone https://github.com/jorgedlt/modeforge.git
 cd modeforge
 ./scripts/run_mode.sh modes/high-precision.json
 ```
+
+For detailed usage instructions, see [HOW_TO_USE.md](HOW_TO_USE.md).
+
+For detailed usage instructions, see [HOW_TO_USE.md](HOW_TO_USE.md).
 
 ## Mode List Summary
 
