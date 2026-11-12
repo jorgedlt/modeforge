@@ -79,3 +79,16 @@ Please ensure all JSON files are syntactically valid and include comprehensive d
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Completeness grade: B
+
+The mode templates and starter packs are fully in this repo, which is
+the point of the project. The gap is the environment they deploy into,
+named below.
+
+## Not in code
+
+- The user's OpenCode installation and its configuration: on the
+  user's own machines.
+- MCP server credentials for any server a mode connects to: the
+  user's secret stores, never in this repo.
